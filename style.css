@@ -53,13 +53,11 @@ li {
 #instagram {
 	background: url(img/icons/instagram.png) no-repeat 0 7px;
 }
-#linkedin {
-	background: url(img/icons/ilinkedin.png) no-repeat 0 7px;
-}
 .about-me, .social {
 	padding-left: 10px;
 	margin: 15px;
 }
-h3 {
+.sidebar h3 {
 	padding-left: 15px;
 }
+
