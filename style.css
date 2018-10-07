@@ -17,7 +17,7 @@ body {
 
 h1 {
 	margin-left: 40px;
-	font-size: 50px;
+	font-size: 40px;
 }
 
 .sidebar {
@@ -83,4 +83,14 @@ article {
 }
 .education-content div p {
 	margin: 2px;
+}
+
+.experience-content {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	text-align: center;
+}
+
+.skills li {
+	list-style: circle inside;
 }
