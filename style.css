@@ -11,7 +11,7 @@ body {
 	max-width: 1024px;
 	margin: 0 25% 0 25%;
 	background-color: rgb(219, 219, 219);
-	height: 800px;
+	height: 850px;
 	border-radius: 15px;
 }
 
@@ -42,7 +42,6 @@ li {
 	padding-left: 24px; 
 	margin-bottom: 10px;
 }
-/*CF4096*/
 #address {
 	background: url(img/icons/placeholder.png) no-repeat;
 }
@@ -87,7 +86,7 @@ article {
 .education-content {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-	grid-template-rows: 2fr 1fr 1fr;
+	grid-template-rows: 2fr 1fr 1fr 1fr;
 }
 .education-content div p {
 	margin: 2px;
