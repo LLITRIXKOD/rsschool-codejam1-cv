@@ -3,7 +3,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	color: black;
-	overflow: hidden;
+	overflow-x: hidden;
 	font-size: 14px;
 }
 
@@ -11,12 +11,14 @@ body {
 	max-width: 1024px;
 	margin: 0 25% 0 25%;
 	background-color: rgb(219, 219, 219);
-	height: 700px;
+	height: 800px;
 	border-radius: 15px;
 }
 
 h1 {
-	margin-left: 40px;
+	margin-left: 70px;
+	margin-top: 7px;
+	margin-bottom: -5px;
 	font-size: 40px;
 }
 
@@ -59,6 +61,9 @@ li {
 #instagram {
 	background: url(img/icons/instagram.png) no-repeat 0 7px;
 }
+#linkedin {
+	background: url(img/icons/linkedin.png) no-repeat 0 7px;
+}
 .about-me, .social {
 	padding-left: 10px;
 	margin: 15px;
@@ -87,6 +92,11 @@ article {
 .education-content div p {
 	margin: 2px;
 }
+h2 {
+	padding: 10px 0 0 30px;
+	background: url(img/icons/atomic-structure.png) no-repeat;
+	background-position: 0px 11px;
+}
 
 .experience-content {
 	display: grid;
@@ -96,4 +106,10 @@ article {
 
 .skills li {
 	list-style: circle inside;
+}
+
+@media screen and (max-width: 1400px) {
+	.experience-content img {
+		display: none;
+	}
 }
