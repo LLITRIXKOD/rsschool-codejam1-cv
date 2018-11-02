@@ -1,0 +1,119 @@
+body {
+	background: url("img/1.jpg") no-repeat;
+	background-size: cover;
+	color: black;
+	font-size: 14px;
+}
+
+.content {
+	width: 800px;
+	margin: 0 auto;
+	background-color: rgb(219, 219, 219);
+	height: 800px;
+	border-radius: 15px;
+}
+
+h1 {
+	margin-left: 70px;
+	margin-top: 7px;
+	margin-bottom: -5px;
+	font-size: 40px;
+}
+
+.sidebar {
+	background-color: rgba(158, 108, 0, 0.8);
+	height: 100%;
+	width: 300px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	color: white;
+	font-size: 12px;
+	float: left;
+	font-family: 'Poppins', sans-serif;
+}
+.sidebar img {
+	margin: 30px 19%;
+	border: 2px solid white;
+}
+li {
+	list-style: none; 
+	padding-left: 24px; 
+	margin-bottom: 10px;
+}
+#address {
+	background: url(img/icons/placeholder.png) no-repeat;
+}
+#phone {
+	background: url(img/icons/phone.png) no-repeat; 
+}
+#email {
+	background: url(img/icons/email.png) no-repeat;
+}
+#github {
+	background: url(img/icons/github.png) no-repeat;
+}
+#skype {
+	background: url(img/icons/skype.png) no-repeat 0 7px;
+}
+#instagram {
+	background: url(img/icons/instagram.png) no-repeat 0 7px;
+}
+#linkedin {
+	background: url(img/icons/linkedin.png) no-repeat 0 7px;
+}
+.about-me, .social {
+	padding-left: 10px;
+	margin: 15px;
+}
+.about-me p {
+	text-align: justify;
+}
+.sidebar h3 {
+	padding-left: 15px;
+}
+
+main {
+	width: 500px;
+	height: 100%;
+	float: left;
+	font-family: 'Lato', sans-serif;
+}
+article {
+	padding-left:20px;
+	width: 480px;
+}
+.education {
+	height: 250px;
+}
+.education-content {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 2fr 1fr 1fr 1fr;
+}
+.education-content div p {
+	margin: 2px;
+}
+.skills {
+	height: 115px;
+}
+h2 {
+	padding: 10px 0 0 30px;
+	background: url(img/icons/atomic-structure.png) no-repeat;
+	background-position: 0px 11px;
+}
+
+.experience-content {
+	text-align: center;
+	width: 500px;
+	height: 200px;
+	margin-left: 8px;
+}
+.experience {
+	float: left;
+	margin-right: 20px;
+	width: 100px;
+}
+
+.skills li {
+	list-style: circle inside;
+}
